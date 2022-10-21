@@ -306,9 +306,17 @@ h1, h2, h3, h4, h5, h6, figure {
   border-bottom: none;
 }
 
+.white-class:hover{
+  color: white !important;
+}
+
 .fh5co-bg-dark {
   background: #2F3C4F;
-  background: #FF9000;
+  /* background: black; */
+  background-image: url(../images/start.jpeg);
+  background-repeat: none;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .fh5co-bg-dark .fh5co-heading h2 {
   color: #fff !important;
@@ -982,6 +990,7 @@ h1, h2, h3, h4, h5, h6, figure {
   float: left;
   width: 100%;
 }
+
 #fh5co-footer p:last-child {
   margin-bottom: 0;
 }
